@@ -76,4 +76,21 @@ nav a:hover {
 
   main {
     padding: 20px;
+    overflow: auto;
+  }
+
+ #content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* pengukuran box -sizing */
+* {
+    box-sizing: border-box;
   }
