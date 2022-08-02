@@ -11,13 +11,24 @@ h2, h3 {
  footer {
     padding: 20px;
     color: white;
-    background-color: #00a2c6
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+ }
+/* font elemen a pada turunan nav */
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
  }
 
-/* rata kiri kanan */
- p {
-    text-align: justify;
+/* menbalkan eleman a saat disorot */
+nav a:hover {
+    font-weight: bold;
+ }
+
+/* rata tengah bgian profile */
+ .profile header {
+    text-align: center;
 }
- /* p {
-    text-indent: 2em;
- } */
+ 
