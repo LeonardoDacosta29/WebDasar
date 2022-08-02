@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
 body{
-    font-family: sans-serif;
+    font-family: 'Quicksand' sans-serif;
 }
 
 h2, h3 {
@@ -11,3 +13,11 @@ h2, h3 {
     color: white;
     background-color: #00a2c6
  }
+
+/* rata kiri kanan */
+ p {
+    text-align: justify;
+}
+ /* p {
+    text-indent: 2em;
+ } */
