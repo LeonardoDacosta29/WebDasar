@@ -2,54 +2,52 @@
 <html lang="en">
 <head>
    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 800px;
+            border: 2px solid black;
+            margin: 0 auto;
+        }
        .flex-column {
            display: flex;
            flex-direction: column;
- 
-           /* Properti lainnya */
-           width: 800px;
-           height: 300px;
-           padding: 20px;
-           margin: 0 auto;
-           border: 2px solid black;
-           border-radius: 10px;
-           background-color: #11C5C6;
        }
        .flex-row {
            display: flex;
            flex-direction: row;
            flex-grow: 1;
- 
-           /* properti lainnya */
-           padding: 20px;
-           margin: 5px;
-           background-color: #FBDD1C;
-           border: 2px solid black;
-           border-radius: 10px;
        }
        .box {
-           flex-grow: 1;
- 
-           /* properti lainnya */
-           background-color: #fe899a;
-           margin: 5px;
-           border: 2px solid black;
-           border-radius: 10px;
+            flex-basis: 25% ;
+            background-color: cornflowerblue;
+            border: 2px solid black;
+            padding: 40px;
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
        }
-   </style>
+       .double {
+        flex-basis: 50%;
+        }
+   </style> 
 </head>
 <body>
-    <div class="flex-column">
-        <div class="flex-row">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-         </div>
-         <div class="flex-row">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-         </div>
+    <div class="container">
+        <div class="flex-column">
+            <div class="flex-row">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+             </div>
+             <div class="flex-row">
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box double">7</div>
+             </div>
+        </div>
     </div>
 </body>
 </html>
